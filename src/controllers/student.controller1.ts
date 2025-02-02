@@ -34,6 +34,8 @@ export class StudentController
     }
     const message="Successfully received student information";
 
+    console.log(message);
+
     ResponseHandler.success(req,res,message,200,students);
 
     
